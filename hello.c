@@ -3,6 +3,8 @@
 
 int main(int argc, char **argv)
 {
+    int    i;
+    
     printf("Hello, World!\n%04d\n", argc);
     if(argc > 1)
         for(i=1; i < argc; i++)
