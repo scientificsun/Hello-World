@@ -5,9 +5,9 @@ RM      = rm -f
 
 default: all
 
-all: Hello
+all: hello
 
-Hello: Hello.c
-	$(CC) $(CFLAGS) -o Hello Hello.c
+hello: hello.c
+	$(CC) $(CFLAGS) -o hello hello.c
 
 clean veryclean:
