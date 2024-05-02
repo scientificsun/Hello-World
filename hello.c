@@ -13,11 +13,13 @@ int main(int argc, char **argv)
     
     printf("Hello, World!\n");
     if(argc > 1)
+    {
         for(i=1; i < argc; i++)
             {
                 printf("%02d %s\n", i, argv[i]);
             }
         report(argc-1);
+    }
     exit(0);
 }
 
