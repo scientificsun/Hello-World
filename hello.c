@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int report(int count)
-{
-        printf("%02d Arguments\n", count);
-        return(0);
-}
-    
+/*
+ Definitions
+*/
+
+int report()
+
 int main(int argc, char **argv)
 {
     int    i;
@@ -23,4 +23,11 @@ int main(int argc, char **argv)
     exit(0);
 }
 
+
+int report(int count)
+{
+        printf("%02d Arguments\n", count);
+        return(0);
+}
+    
 
