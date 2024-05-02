@@ -5,7 +5,7 @@
  Definitions
 */
 
-int report()
+int report();
 
 int main(int argc, char **argv)
 {
