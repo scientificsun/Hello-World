@@ -1,3 +1,7 @@
+/*
+Includes
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -6,6 +10,11 @@
 */
 
 int report();
+
+
+/*
+Code
+*/
 
 int main(int argc, char **argv)
 {
