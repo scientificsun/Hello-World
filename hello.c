@@ -11,7 +11,7 @@ int main(int argc, char **argv)
             {
                 printf("%02d %s\n", i, argv[i]);
             }
-        printf("%02d Arguments\n", argc-1)
+        printf("%03d Arguments\n", argc-1)
     exit(0);
 }
     
