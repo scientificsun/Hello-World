@@ -3,7 +3,7 @@
 
 int report(int count)
 {
-        printf("%03d Arguments\n", count);
+        printf("%02d Arguments\n", count);
         return(0);
 }
     
