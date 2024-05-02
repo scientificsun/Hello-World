@@ -17,7 +17,7 @@ int main(int argc, char **argv)
             {
                 printf("%02d %s\n", i, argv[i]);
             }
-        report(argc-1)
+        report(argc-1);
     exit(0);
 }
 
