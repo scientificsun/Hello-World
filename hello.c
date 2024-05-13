@@ -9,7 +9,7 @@ Includes
  Definitions
 */
 
-void report();
+int report();
 
 
 /*
